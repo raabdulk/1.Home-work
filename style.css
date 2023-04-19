@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
 
 * {
     margin: 0;
@@ -46,9 +46,11 @@ body {
     font-weight: 300;
     font-size: 18px;
     line-height: 32px;
-    display: flex;
-    align-items: center;
     margin-bottom: 44px;
+}
+
+.text-bold {
+    font-weight: 700;
 }
 
 .header__btn {
@@ -86,8 +88,8 @@ body {
 .main__game-box {
     width: 378px;
     height: 300px;
-
-    background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(0023.jpg);
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 .main__text {
