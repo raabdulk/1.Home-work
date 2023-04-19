@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.header {
+    width: 1440px;
+    height: 1024px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url(headerbg.png);
+    background-position: center;
+
+}
+
+.header__top-div {
+    padding-top: 120px;
+    margin-bottom: 32px;
+}
+
+.header__top-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    display: flex;
+    align-items: center;
+}
+
+.header__text {
+    width: 481px;
+    height: 64px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 44px;
+}
+
+.header__btn {
+    display: inline-block;
+    padding: 13px 74px;
+
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+
+    background: #9C0332;
+    border-radius: 30px;
+
+    text-decoration: none;
+}
+
+.header__btn a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.main {
+    padding-top: 128px;
+    padding-bottom: 128px;
+    max-width: 1200px;
+    background: #000915;
+}
+
+.row {
+    display: flex;
+    column-gap: 32px;
+    position: relative;
+}
+
+.main__game-box {
+    width: 378px;
+    height: 300px;
+
+    background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(0023.jpg);
+}
+
+.main__text {
+    display: block;
+    position: absolute;
+    bottom: 10%;
+    color: white;
+    text-decoration: none;
+    padding-bottom: 2px;
+    padding-left: 32px;
+
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.main__box-img {
+    border-radius: 16px;
+}
