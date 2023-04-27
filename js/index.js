@@ -66,3 +66,12 @@
 // // Задание 10
 // let userName = prompt("Как Вас зовут?")
 // alert(`Привет,${userName}!`);
+
+switch (key) {
+    case value:
+        
+        break;
+
+    default:
+        break;
+}
