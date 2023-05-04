@@ -112,10 +112,15 @@ body {
 }
 
 .cta {
-    padding-top: 217px;
-    padding-bottom: 506px;
+    padding-top: 233px;
+    padding-bottom: 233px;
     background-color: #000915;
     background-position: center;
+    .reverse {
+        flex-direction: row-reverse;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
 
     &__row {
         display: flex;

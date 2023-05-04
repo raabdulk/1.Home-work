@@ -43,35 +43,26 @@
 // age = prompt("Сколько вам лет?");
 // alert(age);
 
-// // Задание 9
-// const user = {
-//     name: "Rashid",
-//     age: 36,
-//     isAdmin: true,
-// }
-
-// // Задание 9.1
-// user['city of residence'] = 'Istanbul';
-
-// // Задание 9.2
-// user.age = 37;
-
-// // Задание 9.3
-// delete user['city of residence'];
-
-// // Задание 9.4
-// let info = prompt("Какую информацию хотите узнать о пользователе?");
-// alert(user[info]);
-
-// // Задание 10
-// let userName = prompt("Как Вас зовут?")
-// alert(`Привет,${userName}!`);
-
-switch (key) {
-    case value:
-        
-        break;
-
-    default:
-        break;
+// Задание 9
+const user = {
+    name: "Rashid",
+    age: 36,
+    isAdmin: true,
 }
+
+// Задание 9.1
+user['city of residence'] = 'Istanbul';
+
+// Задание 9.2
+user.age = 37;
+
+// Задание 9.3
+delete user['city of residence'];
+
+// Задание 9.4
+let info = prompt("Какую информацию хотите узнать о пользователе?");
+alert(user[info]);
+
+// Задание 10
+let userName = prompt("Как Вас зовут?")
+alert(`Привет,${userName}!`);

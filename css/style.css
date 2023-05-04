@@ -107,10 +107,15 @@ body {
 }
 
 .cta {
-  padding-top: 217px;
-  padding-bottom: 506px;
+  padding-top: 233px;
+  padding-bottom: 233px;
   background-color: #000915;
   background-position: center;
+}
+.cta .reverse {
+  flex-direction: row-reverse;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 .cta__row {
   display: flex;
@@ -229,6 +234,7 @@ body {
     text-align: center;
   }
   .cta__btn {
+    display: block;
     margin-top: 32px;
   }
   .cta__img {
