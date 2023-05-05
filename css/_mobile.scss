@@ -57,4 +57,48 @@
         padding-bottom: 2px;
 
     }
+
+    .cta {
+        padding-top: 51px;
+        padding-bottom: 85px;
+
+        &__row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+        }
+
+        &__top-text {
+            font-size: 32px;
+            line-height: normal;
+            display: block;
+        }
+
+        &__top-text::after {
+            content: "!";
+            display: none;
+        }
+
+        &__text {
+            font-size: 14px;
+            display: inline;
+        }
+
+        &__left {
+            text-align: center;
+        }
+
+        &__btn {
+            margin-top: 32px;
+        }
+
+        &__img {
+            width: 344px;
+            height: 236px;
+
+            margin-top: 64px;
+        }
+    }
 }
