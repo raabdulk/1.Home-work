@@ -13,11 +13,11 @@
 
     <header class="header container">
         <div class="header__top-div">
-            <h1 class="header__top-text">Добро пожаловать на мой сайт !</h1>
+            <h1 class="header__top-text">Добро пожаловать<br> на мой сайт !</h1>
         </div>
 
         <p class="header__text">Вам предстоит пройти нескольо развлекательных игр. Если готов нажимай
-             <b>поехали</b> и <b>приступай</b>
+            <b>поехали</b> и <b>приступай</b>
         </p>
         <a class="header__btn" href="#">Поехали!</a>
     </header>
@@ -26,7 +26,7 @@
         <div class="row">
             <div class="main__game-box">
                 <img class="main__box-img" src="./img/game1.jpg" alt="game1">
-                <a class="main__text" href="#">Игра 1</a>
+                <a class="main__text" onclick="selectSeason(month)" href="#">Игра 1</a>
             </div>
             <div class="main__game-box">
                 <img class="main__box-img" src="./img/game2.jpg" alt="game2">
@@ -41,12 +41,13 @@
 
     <section class="cta container">
         <div class="cta__row">
-            
+
             <div class="cta__left">
                 <div class="cta__top-div">
                     <h2 class="cta__top-text">Времена года!</h2>
                 </div>
-                <p class="cta__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится
+                <p class="cta__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому
+                    времени года он относится
                 </p>
                 <a class="cta__btn" href="#">Играть!</a>
             </div>
@@ -59,12 +60,13 @@
 
     <section class="cta container">
         <div class="cta__row reverse">
-            
+
             <div class="cta__left">
                 <div class="cta__top-div">
                     <h2 class="cta__top-text">Запомни слова</h2>
                 </div>
-                <p class="cta__text">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.
+                <p class="cta__text">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо
+                    запомнить.
                 </p>
                 <a class="cta__btn" href="#">Играть</a>
             </div>
@@ -75,8 +77,20 @@
         </div>
     </section>
 
+    <section class="bottom container">
+        <div class="bottom__top-div">
+            <h2 class="bottom__top-text">Игра в загадки</h2>
+        </div>
+        <p class="bottom__text">Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите не правильный
+            ответ, то компьютер даст вам подсказку. У вас будет три попытки и две подсказки.
+        </p>
+        <a class="bottom__btn" href="#">Играть</a>
+    </section>
 
-    <script src="./js/hw-4.js"></script>
+    <footer class="footer">
+        <p class="footer__text">Все права защищены</p>
+    </footer>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
