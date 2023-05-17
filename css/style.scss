@@ -22,6 +22,8 @@ body {
     padding-bottom: 506px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 300%), url(../img/headerbg.png);
     background-position: center;
+    background-color: #000915;
+    background-repeat: no-repeat;
 }
 
 .header__top-div {
@@ -116,6 +118,7 @@ body {
     padding-bottom: 233px;
     background-color: #000915;
     background-position: center;
+
     .reverse {
         flex-direction: row-reverse;
         padding-top: 6px;
@@ -135,7 +138,7 @@ body {
     &__top-text {
         font-style: normal;
         font-weight: 700;
-        font-size: 64px;
+        font-size: 48px;
         line-height: 78px;
         display: flex;
         align-items: center;
@@ -168,6 +171,63 @@ body {
     &__btn:hover {
         transform: scale(1.1);
         box-shadow: 0 0 30px #888888;
+    }
+}
+
+.bottom {
+    background: url(../img/unsplash_iO0I6-mhDEY.png);
+    background-position: center;
+    padding-top: 276px;
+    padding-bottom: 288px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000915;
+    background-repeat: no-repeat;
+
+    &__top-text {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 59px;
+        margin-bottom: 32px;
+    }
+
+    &__text {
+        text-align: center;
+    }
+
+    &__btn {
+        display: inline-block;
+        padding: 13px 74px;
+
+        font-weight: 400;
+        font-size: 18px;
+        color: #FFFFFF;
+
+        background: #9C0332;
+        border-radius: 30px;
+
+        text-decoration: none;
+
+        margin-top: 32px;
+    }
+
+    &__btn:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 30px #888888;
+    }
+}
+
+.footer {
+    background: #000915;
+    padding: 32.5px 0px;
+
+    &__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
     }
 }
 
