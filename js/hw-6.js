@@ -20,12 +20,17 @@
 
 // Задание 4
 
-// let arr = [
-//     [1, 1, 1], 
-//     [1, 1, 1], 
-//     [1, 1, 1],
+// let arr = [];
 
-// ];
+// for (let i = 0; i < 3; i++) {
+// 	arr[i] = [];
+	
+// 	for (let j = 0; j < 3; j++) {
+// 		arr[i].push(1);
+// 	}
+// }
+
+// console.log(arr);
 
 // Задание 5
 
@@ -70,7 +75,7 @@
 //     [4, 5, 6],
 // ];
 
-// const merge = arr.flat(1);
+// const merge = arr.flat();
 // console.log(merge)
 
 // Задание 10
