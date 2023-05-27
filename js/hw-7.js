@@ -88,7 +88,7 @@
 
 // currentDate();
 
-// Задание 11
+// Задание 11 !
 
 function game() {
 
