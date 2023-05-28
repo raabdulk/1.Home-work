@@ -90,21 +90,26 @@
 
 // Задание 11 !
 
-function game() {
+// function game() {
 
-    let arr = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+//     let arr = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
 
-    arr = arr.sort(() => Math.random() - 0.5);
-    alert(arr);
+//     arr = arr.sort(() => Math.random() - 0.5);
+//     alert(arr);
 
-    let first = prompt("Чему равнялся первый элемент массива?");
-    let last = prompt("Чему равнялся последний элемент массива?");
-    if (first == arr[0] && last == arr[6]) {
-        alert("Поздравляем! Вы угадали оба элемента")
-    } else if (first == arr[0] || last == arr[6]) {
-        alert("Вы были близки к победе!")
-    } else {
-        alert("Все ответы неверные")
-    }
+//     let first = prompt("Чему равнялся первый элемент массива?");
+//     let last = prompt("Чему равнялся последний элемент массива?");
+//     if (first == arr[0] && last == arr[6]) {
+//         alert("Поздравляем! Вы угадали оба элемента")
+//     } else if (first == arr[0] || last == arr[6]) {
+//         alert("Вы были близки к победе!")
+//     } else {
+//         alert("Все ответы неверные")
+//     }
 
-}
+// }
+
+// function strCount(str, letter) {
+//     const newArray = strCount.split('');
+// }
+// strCount(Hello, o)
