@@ -88,7 +88,8 @@
 
 // currentDate();
 
-// Задание 11 !
+// Задание 11
+
 
 // function game() {
 
@@ -107,9 +108,3 @@
 //         alert("Все ответы неверные")
 //     }
 
-// }
-
-// function strCount(str, letter) {
-//     const newArray = strCount.split('');
-// }
-// strCount(Hello, o)
