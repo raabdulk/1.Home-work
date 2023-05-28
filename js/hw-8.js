@@ -101,4 +101,3 @@
 //   sayHi('Глеб')
 // }, 2000)
 // delayForSecond()
-!!
